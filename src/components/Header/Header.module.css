@@ -1,0 +1,28 @@
+.header {
+  background-color: black;
+  border-bottom: 2px solid #f44336;
+  position: fixed;/*estará sempre presente no mesmo lugar*/
+  top: 0;/*ficará no topo*/
+  width: 100%;/*Ocupará toda a tela horizontal*/
+  display: flex;
+  padding: 0.75rem;/*Espaço entre o conteudo e suas bordas*/
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: space-between; /*Logo de um lado e links de outro*/
+}
+
+.header span{
+    font-size: 2rem;
+    color: #b71c1c;
+    font-weight: 500; /*negrito*/
+}
+
+.header nav{
+    margin-right: 1rem; /*distancia entre o conteudo e a borda direita do navegador*/
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 0.5rem; /*afastar os nomes em linha*/
+}
