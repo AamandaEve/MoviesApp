@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*formatação geral dos cards*/
+.cards{
+  display: flex;
+  gap: 5px; /*espaço entre cards*/
+  flex-wrap: wrap; /*quebra de linha dos cards*/
+  justify-content: center;
+}
