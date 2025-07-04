@@ -1,5 +1,6 @@
 import styles from "./Card.module.css";
 
+/*link e imagem */
 function Card({id}){
     return(
         <section className={styles.card}>
