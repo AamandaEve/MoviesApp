@@ -1,4 +1,5 @@
 .container{
+    height: 100%;
     width: 100%;
     background-color: #191919;
     padding-block: 1rem; /*expandir um rem pra cima e um pra baixo*/
