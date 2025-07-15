@@ -5,4 +5,9 @@
   text-align: center;
   background-color: #222;
   color: white;
+  padding-bottom: 87vh;
+}
+
+.container img {
+  padding-block: 2rem;
 }
