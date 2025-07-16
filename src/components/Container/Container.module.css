@@ -1,8 +1,10 @@
 .container {
-  height: 100%;
   width: 100%;
+  min-height: 100vh;
   background-color: #191919;
-  padding-block: 2.4rem; /*expandir um rem pra cima e um pra baixo*/
   color: white;
+  padding-bottom: 1.5rem; /*expandir um rem pra cima e um pra baixo*/
   text-align: center;
+  padding-inline: 1.5rem;
+  overflow: hidden; /*não permitir barra de rolagem no container*/
 }
