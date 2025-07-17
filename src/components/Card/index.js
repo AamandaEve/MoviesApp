@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
 import iconFavorite from "./favorite.png";
-import iconUnfavorite from "./unfavorite.png";
+// import iconUnfavorite from "./unfavorite.png";
 
 /*link e imagem */
 function Card({ id }) {
@@ -10,7 +10,7 @@ function Card({ id }) {
       <Link to={`/watch/${id}`}>
         <img
           src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
-          alt="Capa" className="styles.capa"
+          alt="Capa" className={styles.capa}
         ></img>
       </Link>
 
